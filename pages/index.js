@@ -1,3 +1,3 @@
 export default () => {
-    return <div>Hello Next</div>
+    return <div>Hello Next หหหหห</div>
 }
