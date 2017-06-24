@@ -8,7 +8,7 @@
     "start": "next start",
     "build": "next build",
     "export": "next build && next export",
-    "publish": "next build && next export && git subtree push --prefix out https://github.com/nantaphop/nantaphop.github.io.git master",
+    "publish": "next build && next export && git add out && git commit -m 'update out' && git subtree push --prefix out https://github.com/nantaphop/nantaphop.github.io.git master",
     "dev": "next"
   },
   "repository": {
