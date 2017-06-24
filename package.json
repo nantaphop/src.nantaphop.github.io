@@ -1,0 +1,34 @@
+{
+  "name": "nantaphop.github.io",
+  "version": "1.0.0",
+  "description": "Nantaphop's Portfolio",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "start": "next start",
+    "build": "next build",
+    "export": "next build && next export",
+    "dev": "next"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nantaphop/nantaphop.github.io.git"
+  },
+  "keywords": [
+    "nextjs",
+    "styled-component",
+    "portfolio",
+    "github-page"
+  ],
+  "author": "Nantaphop Phuengphae",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nantaphop/nantaphop.github.io/issues"
+  },
+  "homepage": "https://github.com/nantaphop/nantaphop.github.io#readme",
+  "dependencies": {
+    "next": "^3.0.0-beta13",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1"
+  }
+}
